@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd",
+  "version": "1.0.0",
+  "description": "Library JS with TDD course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igorth/js-tdd.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Igor Dias <igordiasth@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Igorth/js-tdd/issues"
+  },
+  "homepage": "https://github.com/Igorth/js-tdd#readme"
+}
