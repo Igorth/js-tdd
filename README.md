@@ -8,7 +8,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Igor Dias** - *Initial work* - [PurpleBooth](https://github.com/Igorth)
+* **Igor Dias** - *Initial work* - [JS](https://github.com/Igorth/js-tdd)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
