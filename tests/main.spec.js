@@ -26,6 +26,7 @@
 //   });
 // });
 
+const { expect } = require('chai');
 
 describe('Main', () => {
   let arr;
@@ -53,15 +54,16 @@ describe('Main', () => {
 
   it('should have a size of 4 when push another valueto the array', () => {
     arr.push(4);
-    console.log(arr.length);
+    expect(arr).to.have.lengthOf(4);
   });
 
   it('should have a size of 2 when pop a value from the array', () => {
     arr.pop();
-    console.log(arr.length);
+    expect(arr).to.not.include(3);
   });
 
   it('should remove the value 3 when use pop in the array', () => {
-    console.log(arr.pop() === 3);
+    arr.pop();
+    expect(arr).to.have.lengthOf(2);
   });
 });
