@@ -6,8 +6,8 @@
   "scripts": {
     "lint": "npx eslint src/*.js",
     "prepush": "npm run lint",
-    "test": "./node_modules/.bin/mocha tests/**/*.js",
-    "test:tdd": "./node_modules/.bin/mocha tests/**/*.js --watch"
+    "test": "./node_modules/.bin/mocha tests/calc.spec.js",
+    "test:tdd": "./node_modules/.bin/mocha tests/calc.spec.js --watch"
   },
   "repository": {
     "type": "git",
