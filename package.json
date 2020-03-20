@@ -6,8 +6,8 @@
   "scripts": {
     "lint": "npx eslint src/*.js",
     "prepush": "npm run lint",
-    "test": "./node_modules/.bin/mocha tests/calc.spec.js --require babel-register",
-    "test:tdd": "./node_modules/.bin/mocha tests/calc.spec.js --require babel-register --watch"
+    "test": "./node_modules/.bin/mocha tests/fizzbuzz.spec.js --require babel-register",
+    "test:tdd": "./node_modules/.bin/mocha tests/fizzbuzz.spec.js --require babel-register --watch"
   },
   "repository": {
     "type": "git",

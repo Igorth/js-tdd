@@ -10,9 +10,10 @@ Se nao for multiplo de nada, retorna o numero
 */
 
 import { expect } from 'chai';
+import FizzBuzz from '../src/fizzbuzz';
 
 describe('FizzBuzz', () => {
   it('should return `Fizz` when multiple of 3', () => {
-    expect(Fizzbuzz(3)).to.be.equal('Fizz');
+    expect(FizzBuzz(3)).to.be.equal('Fizz');
   });
 });
