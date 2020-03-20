@@ -27,4 +27,9 @@ describe('FizzBuzz', () => {
     expect(FizzBuzz(15)).to.be.equal('FizzBuzz');
     expect(FizzBuzz(30)).to.be.equal('FizzBuzz');
   });
+
+  it('should return the number when none multiple', () => {
+    expect(FizzBuzz(7)).to.be.equal(7);
+    expect(FizzBuzz(8)).to.be.equal(8);
+  });
 });
