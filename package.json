@@ -10,6 +10,10 @@
     "test:tdd": "./node_modules/.bin/mocha tests/fizzbuzz.spec.js --require babel-register --watch",
     "test:coverage": "nyc npm test"
   },
+  "nyc": {
+    "reporter": ["text", "html"],
+    "exclude": ["tests/**"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Igorth/js-tdd.git"
