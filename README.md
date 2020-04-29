@@ -3,7 +3,7 @@
 
 Create simple tests do learn TDD with JavaScript.
 
-The course it is avaiable in Udemy [https://www.udemy.com/course/js-com-tdd-na-pratica]
+The course it is avaiable in [Udemy](https://www.udemy.com/course/js-com-tdd-na-pratica)
 
 ## 🖥 TDD
 Node.js | Javascript | Mocha | Chai
